@@ -4,6 +4,7 @@ metadata:
   name: netflix-ui
   labels:
     app: netflix-ui
+    release: prometheus
 spec:
   type: LoadBalancer
   selector:
